@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Welcome to Ema John!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://ema-johnn-shopping.netlify.app/
 
 ## Available Scripts
 
