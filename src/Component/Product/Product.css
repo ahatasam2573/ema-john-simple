@@ -16,7 +16,10 @@
 
 .product-info{
     margin: 0 14px;
-    font-family: 'Lato', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(240, 120, 40);
 }
 
 .product-info p{
@@ -35,7 +38,8 @@
 
 .btn-cart{
     width: 100%;
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhai 2';
+    font-size: 16px;
     background-color: #FFE0B3;
     border: none;
     border-radius: 0px 0px 8px 8px;

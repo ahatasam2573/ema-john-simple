@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
-
+body{
+    background-color: rgb(213, 243, 248);
+    font-weight: 500;
+}
 .header{
     height: 80px;
     background-color:#1C2B35;
