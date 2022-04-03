@@ -25,6 +25,7 @@ const Cart = (props) => {
             <p>Total Shipping: $ {shipping}</p>
             <p>Tax: $ {tax}</p>
             <h4>Grand Total: $ {grandTotal.toFixed(2)}</h4>
+            {props.children}
             {/* decimal er por koi ghor dekhabo setar jnne tofixed krte hoi */}
         </div>
     );

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
@@ -8,7 +9,7 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useProducts();
     const [cart, setCart] = useState([]);
-       
+
     useEffect(() =>{
         const storedCart = getStoredCart();
         console.log(storedCart)
@@ -31,7 +32,13 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}>
+                    <Link to={"/orders"}>
+                        <button>
+                            Review Order
+                        </button>
+                    </Link>
+                </Cart>
             </div>
         </div>
     );
