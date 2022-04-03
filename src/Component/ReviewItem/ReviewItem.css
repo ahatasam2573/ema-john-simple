@@ -17,3 +17,20 @@
     display: flex;
     justify-content: space-between;
 }
+.delete-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dlt-btn{
+    background: rgba(235, 87, 87, 0.3);
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.delete-icon{
+    color: rgba(235, 87, 87, 1);  
+    font-size: 27px; 
+}
