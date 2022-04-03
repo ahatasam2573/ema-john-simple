@@ -16,7 +16,7 @@ const Cart = (props) => {
 
     const grandTotal = (total + shipping + tax);
     // const updateTax = updateTax + tax;
-    console.log(cart);
+    // console.log(cart);
     return (
         <div className='cart'>
             <h3>Order Summary</h3>
